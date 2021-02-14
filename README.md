@@ -5,3 +5,9 @@ An automated crypto trading implementation using ccxt and FTX.US leveraging comp
 Developed with:
 
 - `python@3.9.1`
+
+## Developing 
+
+Install the environment using `conda update -f environment.yaml`
+
+Then activate it using `conda activate crypto_keeper`

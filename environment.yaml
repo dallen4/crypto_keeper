@@ -1,0 +1,33 @@
+name: crypto_keeper
+channels:
+  - conda-forge
+dependencies:
+ - python-dotenv
+ - aiodns
+ - aiohttp
+ - async-timeout
+ - attrs
+ - certifi
+ - cffi
+ - chardet
+ - cryptography
+ - idna
+ - multidict
+ - numpy
+ - pandas
+ - pycares
+ - pycparser
+ - pyotp
+ - python-dateutil
+ - python-dotenv
+ - pytz
+ - requests
+ - six
+ - typing-extensions
+ - urllib3
+ - yarl
+ - pip
+ - pip:
+   - int-date
+   - ccxt
+   - stockstats

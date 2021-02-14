@@ -1,5 +1,5 @@
-from src.ftx_client import ftx_client
-from src.coin_balance import CoinBalance
+from .ftx_client import ftx_client
+from .coin_balance import CoinBalance
 
 def get_balances():
     balances_data = ftx_client.fetch_balance()
