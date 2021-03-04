@@ -7,3 +7,7 @@ def buy_coin(symbol, amount):
 def sell_coin(symbol, amount):
     order = ftx_client.create_order(symbol, 'market', 'sell', amount)
     print(order)
+
+def get_order(id):
+    order = ftx_client.fetch_order(id)
+    return order
