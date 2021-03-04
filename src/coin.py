@@ -62,15 +62,4 @@ def get_trade_signal_for_coin(ticker):
     elif advice[-1] == 'SELL':
         trade_signal -= 1
 
-    if trade_signal == 2:
-        print('BUY')
-    elif trade_signal == 1:
-        print('SOFT BUY')
-    elif trade_signal == 0:
-        print('HOLD')
-    elif trade_signal == -1:
-        print('SOFT SELL')
-    elif trade_signal == -2:
-        print('SELL')
-
     return (ts, trade_signal, last_rsi, advice[-1])
